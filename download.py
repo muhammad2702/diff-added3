@@ -1,6 +1,6 @@
 # In this file, we define download_model
 # It runs during container build time to get model weights built into the container
-
+ pip install diffusers==0.8.0
 from diffusers import StableDiffusionPipeline, LMSDiscreteScheduler
 import os
 
